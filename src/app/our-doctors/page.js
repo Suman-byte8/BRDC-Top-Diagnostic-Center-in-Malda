@@ -2,6 +2,11 @@ import DoctorsHero from "@/components/our-doctors/DoctorsHero";
 import DoctorCard from "@/components/our-doctors/DoctorCard";
 import { doctorsData } from "@/app/data/doctorsData";
 
+export const metadata = {
+  title: "Our Specialized Doctors",
+  description: "Consult with highly experienced medical professionals in Malda. Our team includes Gynecologists, Surgeons, Cardiologists, Pediatricians, and more at BRDC.",
+};
+
 export default function DoctorsPage() {
   return (
     <main className="bg-white pb-20">

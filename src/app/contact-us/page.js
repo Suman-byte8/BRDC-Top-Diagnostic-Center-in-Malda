@@ -3,6 +3,11 @@ import ContactForm from "@/components/contact-us/ContactForm";
 import ContactInfo from "@/components/contact-us/ContactInfo";
 import MapSection from "@/components/contact-us/MapSection";
 
+export const metadata = {
+  title: "Contact Us & Find Location",
+  description: "Get in touch with BRDC Malda. Find our phone numbers, location on Google Maps, and send us an inquiry directly through our website.",
+};
+
 export default function ContactPage() {
   return (
     <main className="bg-gray-50 pb-20">

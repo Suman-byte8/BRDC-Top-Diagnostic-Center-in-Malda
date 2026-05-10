@@ -5,6 +5,11 @@ import ServicesCTA from '@/components/services/ServicesCTA';
 // Import the dynamic data
 import { opdData, diagnosticData } from '@/app/data/servicesData';
 
+export const metadata = {
+  title: "Healthcare & Diagnostic Services",
+  description: "Explore our comprehensive medical services including OPD consultations, CT Scans, Digital X-Rays, Pathology, and more at BRDC Malda.",
+};
+
 export default function ServicesPage() {
   return (
     <main className="bg-white">

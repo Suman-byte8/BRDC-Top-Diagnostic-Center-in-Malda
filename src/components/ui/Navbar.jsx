@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import Image from 'next/image';
+import logo from '@/app/assets/logo/logo.png';
 
 export default function Navbar() {
   return (
@@ -6,9 +8,16 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-20 items-center">
           <div className="flex-shrink-0 flex items-center">
-            <div className="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center text-white font-bold text-xs text-center p-1">
-              BRDC LOGO
-            </div>
+            <Link href="/" className="flex items-center">
+              <Image 
+                src={logo} 
+                alt="BRDC Logo" 
+                width={80} 
+                height={80} 
+                className="h-16 w-auto object-contain"
+                priority
+              />
+            </Link>
           </div>
           <div className="hidden md:flex space-x-8 font-medium text-gray-700">
             <Link href="/" className="hover:text-green-600 transition">Home</Link>
