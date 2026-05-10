@@ -33,4 +33,7 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./out/
           server-dir: /
-          dangerous-clean-slate: false
+          # --- THE FIXES ARE BELOW ---
+          protocol: ftp # Force standard FTP (avoids TLS handshake timeout)
+          port: 21 # Explicitly use port 21
+          timeout: 60000 # Increase timeout to 60 seconds
