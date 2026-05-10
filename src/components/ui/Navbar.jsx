@@ -12,10 +12,11 @@ export default function Navbar() {
           </div>
           <div className="hidden md:flex space-x-8 font-medium text-gray-700">
             <Link href="/" className="hover:text-green-600 transition">Home</Link>
-            <Link href="/about" className="hover:text-green-600 transition">About Us</Link>
-            <Link href="/services" className="hover:text-green-600 transition">Services</Link>
-            <Link href="/doctors" className="hover:text-green-600 transition">Our Doctors</Link>
-            <Link href="/contact" className="hover:text-green-600 transition">Contact Us</Link>
+            <Link href="/about-us" className="hover:text-green-600 transition">About Us</Link>
+            <Link href="/services" className="hover:text-green-600 transition">Our Services</Link>
+            <Link href="/our-doctors" className="hover:text-green-600 transition">Our Doctors</Link>
+            <Link href="/contact-us" className="hover:text-green-600 transition">Contact Us</Link>
+            <Link href="/book-your-appointment" className="hover:text-green-600 transition">Book Your Appointment</Link>
           </div>
           <div>
             <button className="bg-green-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-green-700 transition shadow-lg">
