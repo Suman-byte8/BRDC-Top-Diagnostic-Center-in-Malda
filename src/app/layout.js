@@ -25,6 +25,7 @@ export const metadata = {
 
 import Navbar from "@/components/ui/Navbar";
 import Footer from "@/components/ui/Footer";
+import SmoothScrolling from "@/components/ui/SmoothScrolling";
 
 export default function RootLayout({ children }) {
   return (
@@ -38,11 +39,13 @@ export default function RootLayout({ children }) {
         <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
       </head>
       <body className="min-h-full flex flex-col">
-        <Navbar />
-        <main className="flex-grow">
-          {children}
-        </main>
-        <Footer />
+        <SmoothScrolling>
+          <Navbar />
+          <main className="flex-grow">
+            {children}
+          </main>
+          <Footer />
+        </SmoothScrolling>
       </body>
     </html>
   );

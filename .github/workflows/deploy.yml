@@ -22,8 +22,8 @@ jobs:
       - name: 📦 Install Dependencies
         run: npm install
 
-      - name: 🏗️ Build Project
-        run: npm run build
+      - name: 🏗️ Build and Export Project
+        run: npm run deploy
 
       - name: 🚀 Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
@@ -33,7 +33,6 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./out/
           server-dir: /
-          # --- THE FIXES ARE BELOW ---
-          protocol: ftp # Force standard FTP (avoids TLS handshake timeout)
-          port: 21 # Explicitly use port 21
-          timeout: 60000 # Increase timeout to 60 seconds
+          protocol: ftp
+          port: 21
+          timeout: 60000
