@@ -2,7 +2,14 @@
   RewriteEngine On
   RewriteBase /
 
-  # If the requested resource is not a file or directory, serve index.html
+  # If the requested path does not map to a real file or directory,
+  # rewrite it to the corresponding HTML export file.
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME}.html -f
+  RewriteRule ^(.*)$ $1.html [L,QSA]
+
+  # Fallback for single-page or unknown routes to index.html.
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteRule ^.*$ /index.html [L,QSA]
