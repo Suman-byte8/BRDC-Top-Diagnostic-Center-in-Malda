@@ -2,14 +2,16 @@
   RewriteEngine On
   RewriteBase /
 
-  # If the requested path does not map to a real file or directory,
-  # rewrite it to the corresponding HTML export file.
+  # 1. Redirect to trailing slash for directories
+  # If the request doesn't have a trailing slash and is not a file
   RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteCond %{REQUEST_FILENAME}.html -f
-  RewriteRule ^(.*)$ $1.html [L,QSA]
+  RewriteCond %{REQUEST_URI} !(.*)/$
+  RewriteRule ^(.*)$ $1/ [L,R=301]
 
-  # Fallback for single-page or unknown routes to index.html.
+  # 2. Handle subdirectories with index.html (Next.js trailingSlash: true export)
+  # Apache automatically serves index.html if DirectoryIndex is set.
+
+  # 3. Fallback for SPA routing or missing files to index.html
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteRule ^.*$ /index.html [L,QSA]
