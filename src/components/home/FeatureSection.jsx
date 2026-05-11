@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function FeatureSection({ title, desc, imgPos = 'right', btnText = "Book Your Appointment", imgId, imgSrc }) {
   return (
@@ -9,9 +10,9 @@ export default function FeatureSection({ title, desc, imgPos = 'right', btnText 
             {title}
           </h2>
           <p className="text-gray-600 leading-relaxed mb-8 text-justify">{desc}</p>
-          <button className="bg-green-600 text-white px-6 py-3 rounded-md font-bold flex items-center gap-2 hover:bg-green-700 transition">
+          <Link href="/book-your-appointment" className="bg-green-600 text-white px-6 py-3 rounded-md font-bold flex items-center gap-2 hover:bg-green-700 transition w-fit">
             {btnText} <span>→</span>
-          </button>
+          </Link>
         </div>
         <div className="flex-1 w-full h-80 relative rounded-2xl overflow-hidden shadow-lg border border-gray-100">
            {imgSrc ? (

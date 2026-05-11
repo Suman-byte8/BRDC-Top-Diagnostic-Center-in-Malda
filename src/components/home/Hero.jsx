@@ -53,7 +53,6 @@ export default function Hero() {
                 priority={banner.id === 1}
                 sizes="100vw"
               />
-              <div className="absolute inset-0 bg-black/10 z-20" />
             </Link>
           </SwiperSlide>
         ))}

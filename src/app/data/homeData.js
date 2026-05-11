@@ -14,25 +14,25 @@ export const heroBanners = [
   {
     id: 1,
     imageSrc: drBarunDutta,
-    link: "/booking/doctor-1",
+    link: "/our-doctors/dr-barun-datta",
     altText: "Dr. Barun Dutta Banner",
   },
   {
     id: 2,
     imageSrc: drBBKumar,
-    link: "/booking/doctor-2",
+    link: "/our-doctors/dr-bb-kumar",
     altText: "Dr. BB Kumar Banner",
   },
   {
     id: 3,
     imageSrc: drKundanKumar,
-    link: "/booking/doctor-3",
+    link: "/our-doctors/dr-kundan-kumar",
     altText: "Dr. Kundan Kumar Banner",
   },
   {
     id: 4,
     imageSrc: drYRadhakrishna,
-    link: "/booking/doctor-4",
+    link: "/our-doctors/dr-y-radhakrishna",
     altText: "Dr. Y Radhakrishna Banner",
   },
 ];

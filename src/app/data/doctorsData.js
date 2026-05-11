@@ -1,4 +1,8 @@
 // src/app/data/dataDoctors.js
+import bbkumar from "../assets/doctors/DR-B.B-Kumar.png";
+import drbarundatta from "../assets/doctors/DR-Barun-Datta.png";
+import drKundanKumar from "../assets/doctors/DR-Kundan-Kumar.png";
+import drYRadhakrishna from "../assets/doctors/DR-Y-Radhakrishna.png";
 
 export const doctorsData = [
   {
@@ -85,6 +89,57 @@ export const doctorsData = [
     ],
   },
   {
+    category: "Rehumatologist",
+    doctors: [
+      {
+        name: "Dr. B.B. Kumar",
+        info: "M.B.B.S, M.D, General Medicine, FIPM, Fellowship in Rehumatology (John Hopkins University)",
+        timing: "",
+      },
+    ],
+  },
+  {
+    category: "Cardiac Surgeons",
+    doctors: [
+      {
+        name: "Dr. Kaushik Mukherjee",
+        info: "M.I.C.G., B.A.B.G., Heart Surgery",
+        timing: "",
+      },
+    ],
+  },
+  {
+    category: "Cardiologist",
+    doctors: [
+      {
+        name: "Dr. Shekhar Das",
+        info: "M.B.B.S., M.D. (Cardiologist)",
+        timing: "",
+      },
+    ],
+  },
+  {
+    category: "Gastroenterologists",
+    doctors: [
+      {
+        name: "Dr. Y. Radhakrishna",
+        info: "M.D. Medicine (PGI), D.M. Gastroenterology (SGPGI), Fellow in Transplant Hepatology (New York, USA), Fellow in Therapeutic Endoscopy, La Paz, South America",
+        timing: "",
+      },
+    ],
+  },
+
+  {
+    category: "Oncologist",
+    doctors: [
+      {
+        name: "Dr. Arnab Roy",
+        info: "M.B.B.S., M.D. (Oncologist Specialist)",
+        timing: "",
+      },
+    ],
+  },
+  {
     category: "Pediatricians",
     doctors: [
       {
@@ -109,5 +164,324 @@ export const doctorsData = [
       },
     ],
   },
+  {
+    category: "Orthopedic Surgeon",
+    doctors: [
+      {
+        name: "Dr. Barun Dutta",
+        info: "Master Of Surgery, Diplomat of National Board",
+        timing: "",
+      },
+    ],
+  },
   // Add other categories like Oncologist, Orthopedic etc. following same pattern
+];
+
+export const detailedDoctors = [
+  {
+    slug: "dr-barun-datta",
+    name: "Dr. Barun Datta",
+    displayName: "BRIGADIER DR. BARUN DATTA",
+    specialty: "SENIOR ORTHOPAEDIC SURGEON",
+    credentials: [
+      { name: "MBBS", type: "normal" },
+      { name: "MS (Orthopaedics)", type: "normal" },
+      { name: "DNB (Orthopaedics)", type: "normal" },
+      { name: "Arthroplasty Fellow (Australia)", type: "highlight" },
+    ],
+    metaItems: [
+      { icon: "work_history", text: "27+ Years Experience" },
+      { icon: "military_tech", text: "Retd. Brigadier, AFMC Pune" },
+    ],
+    hospital: "B.R Diagnostic Center",
+    location: {
+      name: "B.R Diagnostic Center - Malda",
+      address: "B.R Diagnostic Center",
+      city: "Malda, West Bengal",
+    },
+    appointment: {
+      date: "16th May 2026",
+      time: "10:00 AM to 12:00 PM",
+      displayDate: "16th May 2026 (Saturday)",
+    },
+    notice: {
+      title: "Special Consultation Camp at Malda",
+      text: "Brigadier Dr. Barun Datta will be available for consultation at B.R Diagnostic Center, Malda on <strong>16th May 2026</strong>. Book your slot now!",
+    },
+    appointmentTypes: [
+      { value: "", label: "Select Type" },
+      { value: "First Consultation", label: "First Consultation" },
+      { value: "Follow-up Visit", label: "Follow-up Visit" },
+      {
+        value: "Joint Replacement Consultation",
+        label: "Joint Replacement Consultation",
+      },
+      { value: "Pain Management", label: "Pain Management" },
+    ],
+    concernAreas: [
+      "Knee Pain",
+      "Hip Pain",
+      "Back/Spine Pain",
+      "Fracture",
+      "Arthritis",
+      "Other",
+    ],
+    medicalHistory: {
+      label: "Any Previous Surgeries?",
+      name: "procedure_history",
+      options: [
+        { value: "Yes", label: "Yes" },
+        { value: "No", label: "No", checked: true },
+      ],
+    },
+    trustCredentials: [
+      { icon: "school", title: "MBBS, MS, DNB", subtitle: "Medical Graduate" },
+      {
+        icon: "military_tech",
+        title: "Retd. Brigadier",
+        subtitle: "AFMC Pune",
+      },
+      { icon: "public", title: "Arthroplasty Fellow", subtitle: "Australia" },
+    ],
+    specializations: [
+      { icon: "skeleton", title: "Joint Replacement" },
+      { icon: "accessibility_new", title: "Spine & Back Disorders" },
+      { icon: "healing", title: "Fractures & Sports Injuries" },
+      { icon: "medical_services", title: "Arthritis & Bone Degeneration" },
+    ],
+    specialtyInterests: [
+      { icon: "check_circle", title: "High-precision Joint Replacements" },
+      { icon: "check_circle", title: "Complex Bone Disorders" },
+    ],
+    avatar: drbarundatta,
+  },
+  {
+    slug: "dr-bb-kumar",
+    name: "Dr. B.B. Kumar",
+    displayName: "DR. B.B. KUMAR",
+    specialty: "GENERAL PHYSICIAN | RHEUMATOLOGIST",
+    credentials: [
+      { name: "MBBS", type: "normal" },
+      { name: "MD - General Medicine", type: "normal" },
+      { name: "Rheumatology Training (USA)", type: "highlight" },
+    ],
+    metaItems: [
+      { icon: "work_history", text: "17+ Years Experience" },
+      { icon: "local_hospital", text: "Wellness Plus Polyclinic, Pune" },
+    ],
+    hospital: "B.R Diagnostic Center",
+    location: {
+      name: "B.R Diagnostic Center - Malda",
+      address: "B.R Diagnostic Center",
+      city: "Malda, West Bengal",
+    },
+    appointment: {
+      date: "21st May 2026",
+      time: "8:30 AM to 11:30 AM",
+      displayDate: "21st May 2026 (Thursday)",
+    },
+    notice: {
+      title: "Special Consultation Camp at Malda",
+      text: "Dr. B.B. Kumar will be available for consultation at B.R Diagnostic Center, Malda on <strong>21st May 2026</strong> from <strong>8:30 AM onwards</strong>. Book your slot now!",
+    },
+    appointmentTypes: [
+      { value: "", label: "Select Type" },
+      { value: "First Consultation", label: "First Consultation" },
+      { value: "Follow-up Visit", label: "Follow-up Visit" },
+      {
+        value: "Rheumatology Consultation",
+        label: "Rheumatology Consultation",
+      },
+      { value: "Pain Management", label: "Pain Management" },
+      { value: "General Health Checkup", label: "General Health Checkup" },
+    ],
+    concernAreas: [
+      "Joint Pain",
+      "Arthritis",
+      "Back Pain",
+      "Fever/Infection",
+      "Diabetes",
+      "Hypertension",
+      "Other",
+    ],
+    medicalHistory: {
+      label: "Any Chronic Conditions?",
+      name: "procedure_history",
+      options: [
+        { value: "Yes", label: "Yes" },
+        { value: "No", label: "No", checked: true },
+      ],
+    },
+    trustCredentials: [
+      {
+        icon: "school",
+        title: "MBBS, MD (General Medicine)",
+        subtitle: "Medical Graduate",
+      },
+      { icon: "public", title: "Rheumatology Training", subtitle: "USA" },
+      {
+        icon: "verified",
+        title: "Medical Registration Verified",
+        subtitle: "17+ Years Experience",
+      },
+    ],
+    specializations: [
+      { icon: "medical_services", title: "General Medicine" },
+      { icon: "skeleton", title: "Rheumatology" },
+      { icon: "healing", title: "Pain Management" },
+      { icon: "accessibility_new", title: "Movement Disorders" },
+    ],
+    specialtyInterests: [
+      { icon: "check_circle", title: "Arthritis & Autoimmune Diseases" },
+      { icon: "check_circle", title: "Diabetes & Hypertension Control" },
+    ],
+    avatar: bbkumar,
+  },
+  {
+    slug: "dr-kundan-kumar",
+    name: "Dr. Kundan Kumar",
+    displayName: "DR. KUNDAN KUMAR",
+    specialty: "UROLOGIST",
+    credentials: [
+      { name: "MBBS", type: "normal" },
+      { name: "MS (General Surgery)", type: "normal" },
+      { name: "MCh (Urology)", type: "highlight" },
+    ],
+    metaItems: [
+      { icon: "work_history", text: "15+ Years Experience" },
+      { icon: "local_hospital", text: "Ex-SR AIIMS" },
+    ],
+    hospital: "B.R Diagnostic Center",
+    location: {
+      name: "B.R Diagnostic Center - Malda",
+      address: "B.R Diagnostic Center",
+      city: "Malda, West Bengal",
+    },
+    appointment: {
+      date: "06th June 2026",
+      time: "08:30 AM to 10:30 AM",
+      displayDate: "06th June 2026 (Saturday)",
+    },
+    notice: {
+      title: "Special Consultation Camp at Malda",
+      text: "Dr. Kundan Kumar will be available for consultation at B.R Diagnostic Center, Malda on <strong>06th June 2026</strong> from <strong>8:30 AM onwards</strong>. Book your slot now!",
+    },
+    appointmentTypes: [
+      { value: "", label: "Select Type" },
+      { value: "First Consultation", label: "First Consultation" },
+      { value: "Follow-up Visit", label: "Follow-up Visit" },
+      { value: "Urology Consultation", label: "Urology Consultation" },
+    ],
+    concernAreas: [
+      "Kidney Stone",
+      "Urinary Issues",
+      "Prostate Problem",
+      "Bladder Pain",
+      "Infertility",
+      "Other",
+    ],
+    medicalHistory: {
+      label: "Any Previous Surgeries?",
+      name: "procedure_history",
+      options: [
+        { value: "Yes", label: "Yes" },
+        { value: "No", label: "No", checked: true },
+      ],
+    },
+    trustCredentials: [
+      { icon: "school", title: "MBBS, MS, MCh", subtitle: "Medical Graduate" },
+      { icon: "local_hospital", title: "Ex-SR AIIMS", subtitle: "New Delhi" },
+      {
+        icon: "verified",
+        title: "Medical Registration Verified",
+        subtitle: "15+ Years Experience",
+      },
+    ],
+    specializations: [
+      { icon: "water_drop", title: "Kidney & Ureteric Stones" },
+      { icon: "wc", title: "Prostate Enlargement (BPH)" },
+      { icon: "healing", title: "Urinary Tract Infections" },
+      { icon: "medical_services", title: "Bladder Disorders" },
+    ],
+    specialtyInterests: [
+      { icon: "check_circle", title: "Advanced Urological Procedures" },
+      { icon: "check_circle", title: "Male Infertility & Renal Transplants" },
+    ],
+    avatar: drKundanKumar,
+  },
+  {
+    slug: "dr-y-radhakrishna",
+    name: "Dr. Y. Radhakrishna",
+    displayName: "DR. Y. RADHAKRISHNA",
+    specialty: "GASTROENTEROLOGIST",
+    credentials: [
+      { name: "MBBS", type: "normal" },
+      { name: "MD (General Medicine)", type: "normal" },
+      { name: "DM (Gastroenterology)", type: "highlight" },
+    ],
+    metaItems: [
+      { icon: "work_history", text: "22+ Years Experience" },
+      { icon: "medical_services", text: "Digestive & Liver Care" },
+    ],
+    hospital: "B.R Diagnostic Center",
+    location: {
+      name: "B.R Diagnostic Center - Malda",
+      address: "B.R Diagnostic Center",
+      city: "Malda, West Bengal",
+    },
+    appointment: {
+      date: "29th & 30th May 2026",
+      time: "8:00 AM onwards",
+      displayDate: "29th & 30th May 2026",
+    },
+    notice: {
+      title: "Special Consultation Camp at Malda",
+      text: "Dr. Y. Radhakrishna will be available for consultation at B.R Diagnostic Center, Malda on <strong>29th & 30th May 2026</strong>. Book your slot now!",
+    },
+    appointmentTypes: [
+      { value: "", label: "Select Type" },
+      { value: "First Consultation", label: "First Consultation" },
+      { value: "Follow-up Visit", label: "Follow-up Visit" },
+      {
+        value: "Gastroenterology Consultation",
+        label: "Gastroenterology Consultation",
+      },
+      { value: "Liver Care", label: "Liver Care" },
+    ],
+    concernAreas: [
+      "Stomach Pain",
+      "Acid Reflux/Acidity",
+      "Liver Issues",
+      "Digestion Problem",
+      "Bleeding",
+      "Other",
+    ],
+    medicalHistory: {
+      label: "Any Chronic Conditions?",
+      name: "procedure_history",
+      options: [
+        { value: "Yes", label: "Yes" },
+        { value: "No", label: "No", checked: true },
+      ],
+    },
+    trustCredentials: [
+      { icon: "school", title: "MBBS, MD, DM", subtitle: "Medical Graduate" },
+      {
+        icon: "verified",
+        title: "Medical Registration Verified",
+        subtitle: "22+ Years Experience",
+      },
+    ],
+    specializations: [
+      { icon: "medical_services", title: "Liver Diseases" },
+      { icon: "healing", title: "Pancreatic Disorders" },
+      { icon: "local_hospital", title: "Acid Reflux (GERD)" },
+      { icon: "bloodtype", title: "GI Bleeding" },
+    ],
+    specialtyInterests: [
+      { icon: "check_circle", title: "IBD & IBS Management" },
+      { icon: "check_circle", title: "Digestive Cancers" },
+    ],
+    avatar: drYRadhakrishna,
+  },
 ];

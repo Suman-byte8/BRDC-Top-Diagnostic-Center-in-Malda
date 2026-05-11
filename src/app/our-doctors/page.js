@@ -1,3 +1,4 @@
+import Link from "next/link";
 import DoctorsHero from "@/components/our-doctors/DoctorsHero";
 import DoctorCard from "@/components/our-doctors/DoctorCard";
 import { doctorsData } from "@/app/data/doctorsData";
@@ -40,9 +41,9 @@ export default function DoctorsPage() {
         <h3 className="text-xl font-semibold text-green-800">
           Begin Your Medical Journey with BRDC
         </h3>
-        <button className="bg-green-700 text-white px-8 py-3 rounded-md font-bold hover:bg-green-800 transition shadow-md">
+        <Link href="/book-your-appointment" className="bg-green-700 text-white px-8 py-3 rounded-md font-bold hover:bg-green-800 transition shadow-md">
           Book Your Appointment
-        </button>
+        </Link>
       </div>
     </main>
   );
