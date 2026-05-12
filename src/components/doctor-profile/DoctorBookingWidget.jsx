@@ -149,7 +149,7 @@ export default function DoctorBookingWidget({ doctor }) {
             <section className="card tabs-container">
               <div className="tabs-nav" role="tablist">
                 <button className="tab-btn active" role="tab">
-                  Book Appointment
+                  Book An Appointment
                 </button>
               </div>
 

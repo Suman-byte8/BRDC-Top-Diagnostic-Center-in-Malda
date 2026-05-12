@@ -1,8 +1,9 @@
 import AppointmentForm from "@/components/appointment/AppointmentForm";
 
 export const metadata = {
-  title: "Book Your Appointment",
-  description: "Schedule your diagnostic tests or doctor consultations online at BRDC Malda. Quick and easy booking via WhatsApp.",
+  title: "Book An Appointment",
+  description:
+    "Schedule your diagnostic tests or doctor consultations online at BRDC Malda. Quick and easy booking via WhatsApp.",
 };
 
 export default function AppointmentPage() {
@@ -16,10 +17,11 @@ export default function AppointmentPage() {
       </div>
 
       <AppointmentForm />
-      
+
       <p className="text-center text-gray-500 text-sm mt-10 max-w-lg mx-auto leading-relaxed">
-        *After clicking the submit button, you will be redirected to WhatsApp to confirm your details with our desk. 
-        Your data is processed securely as per our privacy policy.
+        *After clicking the submit button, you will be redirected to WhatsApp to
+        confirm your details with our desk. Your data is processed securely as
+        per our privacy policy.
       </p>
     </main>
   );

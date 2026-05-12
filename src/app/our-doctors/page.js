@@ -5,7 +5,8 @@ import { doctorsData } from "@/app/data/doctorsData";
 
 export const metadata = {
   title: "Our Specialized Doctors",
-  description: "Consult with highly experienced medical professionals in Malda. Our team includes Gynecologists, Surgeons, Cardiologists, Pediatricians, and more at BRDC.",
+  description:
+    "Consult with highly experienced medical professionals in Malda. Our team includes Gynecologists, Surgeons, Cardiologists, Pediatricians, and more at BRDC.",
 };
 
 export default function DoctorsPage() {
@@ -36,13 +37,16 @@ export default function DoctorsPage() {
         ))}
       </div>
 
-      {/* Book Appointment CTA Section */}
+      {/* Book An Appointment CTA Section */}
       <div className="mt-20 bg-green-50 py-10 flex flex-col md:flex-row items-center justify-center gap-8 border-t border-green-100">
         <h3 className="text-xl font-semibold text-green-800">
           Begin Your Medical Journey with BRDC
         </h3>
-        <Link href="/book-your-appointment" className="bg-green-700 text-white px-8 py-3 rounded-md font-bold hover:bg-green-800 transition shadow-md">
-          Book Your Appointment
+        <Link
+          href="/book-your-appointment"
+          className="bg-green-700 text-white px-8 py-3 rounded-md font-bold hover:bg-green-800 transition shadow-md"
+        >
+          Book An Appointment
         </Link>
       </div>
     </main>

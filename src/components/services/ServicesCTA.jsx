@@ -8,7 +8,7 @@ export default function ServicesCTA() {
           For more information of our services
         </h4>
         <Link href="/book-your-appointment" className="bg-green-700 text-white px-8 py-4 rounded-xl font-bold hover:bg-green-800 transition-all shadow-lg hover:shadow-green-200 flex items-center gap-2">
-          Book Appointment with Us <span>→</span>
+          Book An Appointment with Us <span>→</span>
         </Link>
       </div>
     </div>

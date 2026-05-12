@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function FeatureSection({ title, desc, imgPos = 'right', btnText = "Book Your Appointment", imgId, imgSrc }) {
+export default function FeatureSection({ title, desc, imgPos = 'right', btnText = "Book An Appointment", imgId, imgSrc }) {
   return (
     <section className="py-16 px-4 border-b border-gray-100">
       <div className={`max-w-7xl mx-auto flex flex-col ${imgPos === 'right' ? 'md:flex-row' : 'md:flex-row-reverse'} gap-12 items-center`}>

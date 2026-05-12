@@ -46,16 +46,14 @@ export default function Navbar() {
                 {link.name}
               </Link>
             ))}
-            <Link href="/book-your-appointment" className="hover:text-green-600 transition font-bold text-green-600">
-              Book Appointment
-            </Link>
+           
           </div>
 
           {/* Desktop CTA */}
           <div className="hidden md:block">
             <Link href="/book-your-appointment">
               <button className="bg-green-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-green-700 transition shadow-lg whitespace-nowrap">
-                Book Now
+                Book An Appointment
               </button>
             </Link>
           </div>
@@ -91,7 +89,7 @@ export default function Navbar() {
               className="block px-3 py-3 text-base font-bold text-green-600 hover:bg-green-600 hover:text-white rounded-md transition-colors"
               onClick={() => setIsOpen(false)}
             >
-              Book Your Appointment
+              Book An Appointment
             </Link>
           </div>
         </div>

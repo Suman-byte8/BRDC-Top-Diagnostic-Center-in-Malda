@@ -9,7 +9,7 @@ export default function AboutWelcome() {
           <h2 className="text-3xl font-bold text-green-700 inline-block border-b-4 border-green-500 pb-1">
             {aboutWelcomeData.title}
           </h2>
-          <div className="text-gray-700 text-sm leading-relaxed space-y-4 text-justify">
+          <div className="text-gray-700 text-sm leading-relaxed space-y-4 text-pretty">
             {aboutWelcomeData.paragraphs.map((p, i) => (
               <p key={i}>{p}</p>
             ))}

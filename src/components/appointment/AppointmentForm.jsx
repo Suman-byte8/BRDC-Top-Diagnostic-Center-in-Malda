@@ -60,7 +60,7 @@ export default function AppointmentForm() {
   return (
     <div className="max-w-[650px] mx-auto my-10 p-8 bg-white rounded-xl shadow-2xl border-t-[6px] border-green-600 text-gray-800">
       <div className="text-center mb-8">
-        <h2 className="text-2xl font-bold text-green-800">Book Appointment</h2>
+        <h2 className="text-2xl font-bold text-green-800">Book An Appointment</h2>
         <p className="text-sm text-gray-500">B.R. Diagnostic Center Pvt. Ltd.</p>
       </div>
 

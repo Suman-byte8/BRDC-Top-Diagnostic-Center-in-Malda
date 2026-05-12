@@ -44,12 +44,9 @@ export default function Services() {
               <h3 className="text-2xl font-bold text-slate-900 mb-4 group-hover:text-green-600 transition-colors">
                 {service.title}
               </h3>
-              <p className="text-slate-600 leading-relaxed text-justify mb-6">
+              <p className="text-slate-600 leading-relaxed text-pretty mb-6">
                 {service.desc}
               </p>
-              <div className="flex items-center text-green-600 font-bold group-hover:gap-3 gap-2 transition-all cursor-pointer">
-                Learn More <span className="text-xl">→</span>
-              </div>
             </div>
           ))}
         </div>
