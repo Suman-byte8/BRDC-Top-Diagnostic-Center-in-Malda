@@ -81,11 +81,11 @@ export const doctorsData = [
         info: "M.B.B.S., M.S., Ex-Senior Resident A.I.I.M.S., New Delhi M.Ch Urology",
         timing: "",
       },
-      {
-        name: "Dr. Bappana Venkata Bhargava",
-        info: "Onco-Urologist, M.B.B.S., M.S., M.Ch (Urology), Dual fellowship in Robotic Surgery",
-        timing: "",
-      },
+      // {
+      //   name: "Dr. Bappana Venkata Bhargava",
+      //   info: "Onco-Urologist, M.B.B.S., M.S., M.Ch (Urology), Dual fellowship in Robotic Surgery",
+      //   timing: "",
+      // },
     ],
   },
   {

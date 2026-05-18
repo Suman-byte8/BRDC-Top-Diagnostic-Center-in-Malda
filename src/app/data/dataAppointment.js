@@ -21,7 +21,7 @@ export const DOCTOR_MAP = {
     ],
     "Urologists": [
         "Dr. Kundan Kumar M.B.B.S., M.S., Ex-A.I.I.M.S., M.Ch Urology",
-        "Dr. Bappana Venkata Bhargava (Onco-Urologist) M.S., M.Ch"
+        // "Dr. Bappana Venkata Bhargava (Onco-Urologist) M.S., M.Ch"
     ],
     "Rheumatologist": [
         "Dr. B.B Kumar M.B.B.S, M.D, FIPM (John Hopkins Univ.)"
