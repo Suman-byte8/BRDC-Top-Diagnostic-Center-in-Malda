@@ -3,6 +3,8 @@ import bbkumar from "../assets/doctors/DR-B.B-Kumar.png";
 import drbarundatta from "../assets/doctors/DR-Barun-Datta.png";
 import drKundanKumar from "../assets/doctors/DR-Kundan-Kumar.png";
 import drYRadhakrishna from "../assets/doctors/DR-Y-Radhakrishna.png";
+import drMaitreyeeSarkar from "../assets/doctors/DR-Maitreyee-Sarkar.png";
+import drSarwarHossain from "../assets/doctors/DR-Sarwar-Hossain.png";
 
 export const doctorsData = [
   {
@@ -178,6 +180,7 @@ export const doctorsData = [
 ];
 
 export const detailedDoctors = [
+  // Barun Dutta
   {
     slug: "dr-barun-datta",
     name: "Dr. Barun Datta",
@@ -255,6 +258,7 @@ export const detailedDoctors = [
     ],
     avatar: drbarundatta,
   },
+  // BB Kumar
   {
     slug: "dr-bb-kumar",
     name: "Dr. B.B. Kumar",
@@ -337,6 +341,7 @@ export const detailedDoctors = [
     ],
     avatar: bbkumar,
   },
+  // Kundan Kumar
   {
     slug: "dr-kundan-kumar",
     name: "Dr. Kundan Kumar",
@@ -409,6 +414,7 @@ export const detailedDoctors = [
     ],
     avatar: drKundanKumar,
   },
+  // Y Radhakrishna
   {
     slug: "dr-y-radhakrishna",
     name: "Dr. Y. Radhakrishna",
@@ -483,5 +489,165 @@ export const detailedDoctors = [
       { icon: "check_circle", title: "Digestive Cancers" },
     ],
     avatar: drYRadhakrishna,
+  },
+  // maitreyee sarkar
+  {
+    slug: "dr-maitreyee-sarkar",
+    name: "Dr. Maitreyee Sarkar",
+    displayName: "DR. MAITREYEE SARKAR",
+    specialty: "OBSTETRICS & GYNAECOLOGY",
+    credentials: [
+      { name: "MS", type: "normal" },
+      // { name: "DGO", type: "normal" },
+      // { name: "DNB (Gastroenterology)", type: "highlight" },
+    ],
+    metaItems: [
+      { icon: "work_history", text: "5+ Years Experience" },
+      { icon: "medical_services", text: "Obstetrics & Gynaecology" },
+    ],
+    hospital: "B.R Diagnostic Center",
+    location: {
+      name: "B.R Diagnostic Center - Malda",
+      address: "B.R Diagnostic Center",
+      city: "Malda, West Bengal",
+    },
+    appointment: {
+      date: "Every Sunday, Monday, Tuesday, Wednesday",
+      time: "9.30 AM Onwards",
+      displayDate: "Every Sunday, Monday, Tuesday, Wednesday",
+    },
+    notice: {
+      title: "Special Consultation Camp at Malda",
+      text: "Dr. Maitreyee Sarkar will be available for consultation at B.R Diagnostic Center, Malda on <strong>Every Sunday, Monday, Tuesday, Wednesday, from 9.30 AM onwards</strong>. Book your slot now!",
+    },
+    appointmentTypes: [
+      { value: "", label: "Select Type" },
+      { value: "First Consultation", label: "First Consultation" },
+      { value: "Follow-up Visit", label: "Follow-up Visit" },
+      {
+        value: "Obstetrics & Gynaecology Consultation",
+        label: "Obstetrics & Gynaecology Consultation",
+      },
+    ],
+    concernAreas: [
+      "Pregnancy Care",
+      "Menstrual Irregularities",
+      "PCOS",
+      "Infertility",
+      "Menopause",
+      "Other",
+    ],
+    medicalHistory: {
+      label: "Any Chronic Conditions?",
+      name: "procedure_history",
+      options: [
+        { value: "Yes", label: "Yes" },
+        { value: "No", label: "No", checked: true },
+      ],
+    },
+    trustCredentials: [
+      { icon: "school", title: "MBBS, MD, DM", subtitle: "Medical Graduate" },
+      {
+        icon: "verified",
+        title: "Medical Registration Verified",
+        subtitle: "5+ Years Experience",
+      },
+    ],
+    specializations: [
+      { icon: "medical_services", title: "Pregnancy Care" },
+      { icon: "healing", title: "Menstrual Irregularities" },
+      { icon: "local_hospital", title: "PCOS" },
+      { icon: "bloodtype", title: "Infertility" },
+      { icon: "medical_services", title: "Menopause" },
+    ],
+    specialtyInterests: [
+      { icon: "check_circle", title: "High-Risk Pregnancies" },
+      { icon: "check_circle", title: "Laparoscopic Surgeries" },
+    ],
+    avatar: drMaitreyeeSarkar,
+  },
+  // sarwar hossain
+  {
+    slug: "dr-sarwar-hossain",
+    name: "Dr. Sarwar Hossain",
+    displayName: "DR. SARWAR HOSSAIN",
+    specialty: "PEDIATRICS & NEONATOLOGY",
+    credentials: [
+      { name: "MD Pediatrics", type: "normal" },
+      { name: "PGPN (Boston University, USA)", type: "normal" },
+      { name: "Ex-AIIMS Kalyani", type: "highlight" },
+    ],
+    metaItems: [
+      { icon: "workspace_premium", text: "Ex-AIIMS Kalyani" },
+      { icon: "medical_services", text: "Pediatrician & Neonatologist" },
+    ],
+    hospital: "B.R Diagnostic Center",
+    location: {
+      name: "B.R Diagnostic Center - Malda",
+      address: "B.R Diagnostic Center",
+      city: "Malda, West Bengal",
+    },
+    appointment: {
+      date: "Available on Appointment", // Placeholder as it's not in the image
+      time: "Contact for timings", // Placeholder
+      displayDate: "Available on Appointment", // Placeholder
+    },
+    notice: {
+      title: "Special Pediatric Consultation Camp at Malda",
+      text: "Dr. Sarwar Hossain will be available for consultation at B.R Diagnostic Center, Malda. Book your slot now!",
+    },
+    appointmentTypes: [
+      { value: "", label: "Select Type" },
+      { value: "First Consultation", label: "First Consultation" },
+      { value: "Follow-up Visit", label: "Follow-up Visit" },
+      {
+        value: "Pediatric Consultation",
+        label: "Pediatric Consultation",
+      },
+      {
+        value: "Vaccination",
+        label: "Vaccination",
+      },
+    ],
+    concernAreas: [
+      "Newborn Care",
+      "Vaccination",
+      "Growth Monitoring",
+      "Childhood Illnesses",
+      "General Pediatrics",
+      "Other",
+    ],
+    medicalHistory: {
+      label: "Any Chronic Conditions?",
+      name: "procedure_history",
+      options: [
+        { value: "Yes", label: "Yes" },
+        { value: "No", label: "No", checked: true },
+      ],
+    },
+    trustCredentials: [
+      {
+        icon: "school",
+        title: "MBBS (Hons.), MD",
+        subtitle: "Medical Graduate",
+      },
+      {
+        icon: "verified",
+        title: "PGPN",
+        subtitle: "Boston University, USA",
+      },
+    ],
+    specializations: [
+      { icon: "child_care", title: "Child Specialist" },
+      { icon: "baby_changing_station", title: "Newborn Care Expert" },
+      { icon: "vaccines", title: "Vaccination" },
+      { icon: "monitor_weight", title: "Growth Monitoring" },
+      { icon: "health_and_safety", title: "Trusted Pediatric Consultation" },
+    ],
+    specialtyInterests: [
+      { icon: "check_circle", title: "Neonatology" },
+      { icon: "check_circle", title: "Advanced Pediatric Care" },
+    ],
+    avatar: drSarwarHossain,
   },
 ];
