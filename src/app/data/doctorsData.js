@@ -588,13 +588,13 @@ export const detailedDoctors = [
       city: "Malda, West Bengal",
     },
     appointment: {
-      date: "Available on Appointment", // Placeholder as it's not in the image
-      time: "Contact for timings", // Placeholder
-      displayDate: "Available on Appointment", // Placeholder
+      date: "Monday to Saturday",
+      time: "8.00 AM to 12.00 PM",
+      displayDate: "Everyday (Except Sunday)",
     },
     notice: {
       title: "Special Pediatric Consultation Camp at Malda",
-      text: "Dr. Sarwar Hossain will be available for consultation at B.R Diagnostic Center, Malda. Book your slot now!",
+      text: "Dr. Sarwar Hossain will be available for consultation at B.R Diagnostic Center, Malda on <strong>Everyday except Sunday, from 8.00 AM to 12.00 PM</strong>. Book your slot now!",
     },
     appointmentTypes: [
       { value: "", label: "Select Type" },
