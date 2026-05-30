@@ -72,6 +72,24 @@ export default function DoctorBookingWidget({ doctor }) {
     )}`;
     window.open(whatsappUrl, "_blank");
 
+    // ── Lead Tracking ───────────────────────────────────────────────
+    // Only fires here — AFTER validation passes and WhatsApp opens.
+    // A plain button click or failed validation never reaches this point.
+    if (typeof fbq !== "undefined") {
+      fbq("track", "Lead", {
+        content_name: `Doctor Booking – ${doctor.name}`,
+        content_category: doctor.specialty,
+      });
+    }
+    if (typeof window !== "undefined" && Array.isArray(window.dataLayer)) {
+      window.dataLayer.push({
+        event: "whatsapp_booking_lead",
+        doctor_name: doctor.name,
+        doctor_specialty: doctor.specialty,
+      });
+    }
+    // ────────────────────────────────────────────────────────────────
+
     setMessage({
       type: "success",
       title: "Redirecting to WhatsApp!",
@@ -148,7 +166,7 @@ export default function DoctorBookingWidget({ doctor }) {
 
             <section className="card tabs-container">
               <div className="tabs-nav" role="tablist">
-                <button className="tab-btn active" role="tab">
+                <button id='whatsapp-book-btn' className="tab-btn active" role="tab">
                   Book An Appointment
                 </button>
               </div>
