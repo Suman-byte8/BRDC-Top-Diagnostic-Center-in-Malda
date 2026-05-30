@@ -21,6 +21,11 @@ export const doctorsData = [
         info: "M.B.B.S (S.S.K.M), D.G.O (Kolkata Medical college)",
         timing: "",
       },
+      {
+        name: "Dr. Maitreyee Sarkar",
+        info: "M.B.B.S, M.S (Kolkata Medical college)",
+        timing: "",
+      },
     ],
   },
   {
@@ -36,16 +41,6 @@ export const doctorsData = [
   {
     category: "General Physicians",
     doctors: [
-      {
-        name: "Dr. Mohammad Jahangir Ghazi",
-        info: "M.B.B.S., M.D., General Medicine",
-        timing: "",
-      },
-      {
-        name: "Dr. M. Sukhendu",
-        info: "M.B.B.S. (Malda Medical College and Hospital)",
-        timing: "",
-      },
       {
         name: "Dr. Rajiv Kumar",
         info: "M.B.B.S.",
@@ -65,16 +60,16 @@ export const doctorsData = [
       },
     ],
   },
-  {
-    category: "Neurologist",
-    doctors: [
-      {
-        name: "Dr. Satyadeep Sarkar",
-        info: "MBBS (Hons.), MD (International Medicine), MD (Neuro), P.D.T",
-        timing: "",
-      },
-    ],
-  },
+  // {
+  //   category: "Neurologist",
+  //   doctors: [
+  //     {
+  //       name: "Dr. Satyadeep Sarkar",
+  //       info: "MBBS (Hons.), MD (International Medicine), MD (Neuro), P.D.T",
+  //       timing: "",
+  //     },
+  //   ],
+  // },
   {
     category: "Urologists",
     doctors: [
@@ -100,26 +95,26 @@ export const doctorsData = [
       },
     ],
   },
-  {
-    category: "Cardiac Surgeons",
-    doctors: [
-      {
-        name: "Dr. Kaushik Mukherjee",
-        info: "M.I.C.G., B.A.B.G., Heart Surgery",
-        timing: "",
-      },
-    ],
-  },
-  {
-    category: "Cardiologist",
-    doctors: [
-      {
-        name: "Dr. Shekhar Das",
-        info: "M.B.B.S., M.D. (Cardiologist)",
-        timing: "",
-      },
-    ],
-  },
+  // {
+  //   category: "Cardiac Surgeons",
+  //   doctors: [
+  //     {
+  //       name: "Dr. Kaushik Mukherjee",
+  //       info: "M.I.C.G., B.A.B.G., Heart Surgery",
+  //       timing: "",
+  //     },
+  //   ],
+  // },
+  // {
+  //   category: "Cardiologist",
+  //   doctors: [
+  //     {
+  //       name: "Dr. Shekhar Das",
+  //       info: "M.B.B.S., M.D. (Cardiologist)",
+  //       timing: "",
+  //     },
+  //   ],
+  // },
   {
     category: "Gastroenterologists",
     doctors: [
@@ -145,16 +140,6 @@ export const doctorsData = [
     category: "Pediatricians",
     doctors: [
       {
-        name: "Dr. Amit Kumar Mondal",
-        info: "M.B.B.S., M.D. (Pediatrics), Malda Medical College",
-        timing: "",
-      },
-      {
-        name: "Dr. Rajdeep Agarwal",
-        info: "M.B.B.S., M.D. (Pediatrics), Specialist in Newborn and Child Diseases",
-        timing: "",
-      },
-      {
         name: "Dr. Shubhajit De",
         info: "M.B.B.S., M.D. (Pediatrics), Pediatrician and Neonatologist, Attached with Institute of Child Health, Kolkata",
         timing: "",
@@ -172,6 +157,11 @@ export const doctorsData = [
       {
         name: "Dr. Barun Dutta",
         info: "Master Of Surgery, Diplomat of National Board",
+        timing: "",
+      },
+      {
+        name: "Dr. Jishan Azad",
+        info: "M.B.B.S., M.S. (Orthopaedics)",
         timing: "",
       },
     ],

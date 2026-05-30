@@ -14,6 +14,7 @@ export default function Navbar() {
     { name: 'About Us', href: '/about-us' },
     { name: 'Our Services', href: '/services' },
     { name: 'Our Doctors', href: '/our-doctors' },
+    { name: 'Our Tests', href: '/our-tests' },
     { name: 'Contact Us', href: '/contact-us' },
   ];
 

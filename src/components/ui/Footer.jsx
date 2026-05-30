@@ -31,17 +31,23 @@ export default function Footer() {
             <li><Link href="/our-doctors" className="hover:text-green-600 transition-colors">Our Doctors</Link></li>
             <li><Link href="/contact-us" className="hover:text-green-600 transition-colors">Contact Us</Link></li>
             <li><Link href="/privacy-policy" className="hover:text-green-600 transition-colors">Privacy Policy</Link></li>
+            <li><a href="https://www.google.com/maps/place/Bisweswari+Roy+Diagnostic+%26+Polyclinic+Centre+(B.R.D.C.)/@24.9989966,88.1335925,17z/data=!4m8!3m7!1s0x39fafdc783945f57:0x9041d50993f3d14e!8m2!3d24.9989966!4d88.1361674!9m1!1b1!16s%2Fg%2F11c30_zmyw!5m1!1e1?entry=ttu&g_ep=EgoyMDI2MDUyMC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" className="hover:text-green-600 transition-colors">Feedback</a></li>
           </ul>
         </div>
 
         <div>
           <h4 className="text-green-800 font-bold text-lg mb-6">Departments</h4>
-          <ul className="space-y-2 text-sm">
-            <li><Link href="/services" className="hover:text-green-600 transition-colors">General Physician</Link></li>
-            <li><Link href="/services" className="hover:text-green-600 transition-colors">Urologists</Link></li>
-            <li><Link href="/services" className="hover:text-green-600 transition-colors">Cardiologists</Link></li>
-            <li><Link href="/services" className="hover:text-green-600 transition-colors">Pediatricians</Link></li>
+          <ul className="space-y-2 text-sm max-h-48 overflow-y-auto pr-2 custom-scrollbar">
             <li><Link href="/services" className="hover:text-green-600 transition-colors">Gynecologists</Link></li>
+            <li><Link href="/services" className="hover:text-green-600 transition-colors">General Surgeons</Link></li>
+            <li><Link href="/services" className="hover:text-green-600 transition-colors">General Physicians</Link></li>
+            <li><Link href="/services" className="hover:text-green-600 transition-colors">ENT Surgeons</Link></li>
+            <li><Link href="/services" className="hover:text-green-600 transition-colors">Urologists</Link></li>
+            <li><Link href="/services" className="hover:text-green-600 transition-colors">Rheumatologists</Link></li>
+            <li><Link href="/services" className="hover:text-green-600 transition-colors">Gastroenterologists</Link></li>
+            <li><Link href="/services" className="hover:text-green-600 transition-colors">Oncologists</Link></li>
+            <li><Link href="/services" className="hover:text-green-600 transition-colors">Pediatricians</Link></li>
+            <li><Link href="/services" className="hover:text-green-600 transition-colors">Orthopedic Surgeons</Link></li>
           </ul>
         </div>
 

@@ -7,9 +7,10 @@ export default function ContactInfo() {
     <div className="space-y-6">
       {/* Phone Numbers Card */}
       <div className="bg-white p-8 rounded-2xl shadow-lg border-b-4 border-green-600">
-        <h4 className="text-xl font-bold text-green-700 mb-6 flex items-center gap-2">
-          <FaPhoneAlt className="text-lg" /> Call Us for Enquiry
+        <h4 className="text-xl font-bold text-green-700 mb-2 flex items-center gap-2">
+          <FaPhoneAlt className="text-lg" /> Call Us
         </h4>
+        <p className="text-sm text-gray-500 mb-6 font-medium">Enquiry between 9.00 AM to 6.00 PM</p>
         <div className="space-y-4 text-gray-700 font-medium">
           <div className="flex items-start gap-3">
             <span className="w-8 h-8 bg-green-50 rounded-full flex-shrink-0 flex items-center justify-center text-green-600 mt-1">
