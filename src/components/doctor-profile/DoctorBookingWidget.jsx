@@ -166,7 +166,7 @@ export default function DoctorBookingWidget({ doctor }) {
 
             <section className="card tabs-container">
               <div className="tabs-nav" role="tablist">
-                <button id='whatsapp-book-btn' className="tab-btn active" role="tab">
+                <button className="tab-btn active" role="tab">
                   Book An Appointment
                 </button>
               </div>
@@ -433,7 +433,8 @@ export default function DoctorBookingWidget({ doctor }) {
                       <div className="cta-wrapper">
                         <button
                           type="submit"
-                          className="btn btn-primary btn-xl"
+                          id='whatsapp-book-btn'
+                          className="btn btn-primary btn-xl" 
                         >
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
