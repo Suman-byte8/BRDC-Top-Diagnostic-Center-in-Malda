@@ -1,9 +1,9 @@
-import drBarunDutta from "@/app/assets/doctorHeroBanner/DR-Barun-Dutta.jpg";
-import drBBKumar from "@/app/assets/doctorHeroBanner/DR-BB-Kumar.jpg";
-import drKundanKumar from "@/app/assets/doctorHeroBanner/DR-Kundan-Kumar.jpg";
-import drYRadhakrishna from "@/app/assets/doctorHeroBanner/DR-Y-Radhakrishna.jpg";
-import drSarwarHossain from "@/app/assets/doctorHeroBanner/DR-Sarwar-Hossain.jpg";
-import drMaitreyeeSarkar from "@/app/assets/doctorHeroBanner/DR-Maitreyee-Sarkar.jpg";
+import drBarunDutta from "../assets/doctorHeroBanner/Dr_Barun_Dutta_Website_Cover.png";
+import drBBKumar from "../assets/doctorHeroBanner/Dr_BB_Kumar_Website_Cover.png";
+import drKundanKumar from "../assets/doctorHeroBanner/Dr_Kundan_Kumar_Website_Cover.png";
+import drYRadhakrishna from "../assets/doctorHeroBanner/Dr_Y_Radhakrishna_Website_Cover.png";
+import drSarwarHossain from "../assets/doctorHeroBanner/Dr_Sarwar_Hossain_Website_Cover.png";
+import drMaitreyeeSarkar from "../assets/doctorHeroBanner/Dr_Maitreyee_Sarkar_Website_Cover.png";
 
 // Feature Images
 import healthCheck from "@/app/assets/homeFeature/healthCheck.png";
@@ -13,12 +13,12 @@ import medicalProfessional from "@/app/assets/homeFeature/medicalProfessional.pn
 import inHouseMedicine from "@/app/assets/homeFeature/inHouseMedicine.png";
 
 export const heroBanners = [
-  {
-    id: 1,
-    imageSrc: drBarunDutta,
-    link: "/our-doctors/dr-barun-datta",
-    altText: "Dr. Barun Dutta Banner",
-  },
+  // {
+  //   id: 1,
+  //   imageSrc: drBarunDutta,
+  //   link: "/our-doctors/dr-barun-datta",
+  //   altText: "Dr. Barun Dutta Banner",
+  // },
   {
     id: 2,
     imageSrc: drBBKumar,
