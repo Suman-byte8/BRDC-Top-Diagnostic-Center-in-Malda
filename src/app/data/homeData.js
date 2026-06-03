@@ -4,6 +4,7 @@ import drKundanKumar from "../assets/doctorHeroBanner/Dr_Kundan_Kumar_Website_Co
 import drYRadhakrishna from "../assets/doctorHeroBanner/Dr_Y_Radhakrishna_Website_Cover.png";
 import drSarwarHossain from "../assets/doctorHeroBanner/Dr_Sarwar_Hossain_Website_Cover.png";
 import drMaitreyeeSarkar from "../assets/doctorHeroBanner/Dr_Maitreyee_Sarkar_Website_Cover.png";
+import drSagarMantri from "../assets/doctorHeroBanner/Dr_Sagar_Mantri_Website_Cover.jpg";
 
 // Feature Images
 import healthCheck from "@/app/assets/homeFeature/healthCheck.png";
@@ -48,6 +49,12 @@ export const heroBanners = [
     imageSrc: drSarwarHossain,
     link: "/our-doctors/dr-sarwar-hossain",
     altText: "Dr. Sarwar Hossain Banner",
+  },
+  {
+    id: 7,
+    imageSrc: drSagarMantri,
+    link: "/our-doctors/dr-sagar-mantri",
+    altText: "Dr. Sagar Mantri Banner",
   },
 ];
 

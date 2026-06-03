@@ -5,6 +5,7 @@ import drKundanKumar from "../assets/doctors/DR-Kundan-Kumar.png";
 import drYRadhakrishna from "../assets/doctors/DR-Y-Radhakrishna.png";
 import drMaitreyeeSarkar from "../assets/doctors/DR-Maitreyee-Sarkar.png";
 import drSarwarHossain from "../assets/doctors/DR-Sarwar-Hossain.png";
+import drSagarMantri from "../assets/doctors/DR-Sagar-Mantri.png";
 
 export const doctorsData = [
   {
@@ -639,5 +640,82 @@ export const detailedDoctors = [
       { icon: "check_circle", title: "Advanced Pediatric Care" },
     ],
     avatar: drSarwarHossain,
+  },
+
+  // Y Radhakrishna
+  {
+    slug: "dr-sagar-mantri",
+    name: "Dr. Sagar Mantri",
+    displayName: "DR. SAGAR MANTRI",
+    specialty: "GASTROENTEROLOGIST",
+    credentials: [
+      { name: "MBBS", type: "normal" },
+      { name: "MD (General Medicine)", type: "normal" },
+      { name: "DM (Gastroenterology)", type: "highlight" },
+    ],
+    metaItems: [
+      { icon: "work_history", text: "5+ Years Experience" },
+      { icon: "medical_services", text: "Digestive & Liver Care" },
+    ],
+    hospital: "B.R Diagnostic Center",
+    location: {
+      name: "B.R Diagnostic Center - Malda",
+      address: "B.R Diagnostic Center",
+      city: "Malda, West Bengal",
+    },
+    appointment: {
+      date: "28th June 2026",
+      time: "8:00 AM onwards",
+      displayDate: "28th June 2026 (Sunday)",
+    },
+    notice: {
+      title: "Special Consultation Camp at Malda",
+      text: "Dr. Sagar Mantri will be available for consultation at B.R Diagnostic Center, Malda on <strong>28th June 2026</strong>. Book your slot now!",
+    },
+    appointmentTypes: [
+      { value: "", label: "Select Type" },
+      { value: "First Consultation", label: "First Consultation" },
+      { value: "Follow-up Visit", label: "Follow-up Visit" },
+      {
+        value: "Gastroenterology Consultation",
+        label: "Gastroenterology Consultation",
+      },
+      { value: "Liver Care", label: "Liver Care" },
+    ],
+    concernAreas: [
+      "Stomach Pain",
+      "Acid Reflux/Acidity",
+      "Liver Issues",
+      "Digestion Problem",
+      "Bleeding",
+      "Other",
+    ],
+    medicalHistory: {
+      label: "Any Chronic Conditions?",
+      name: "procedure_history",
+      options: [
+        { value: "Yes", label: "Yes" },
+        { value: "No", label: "No", checked: true },
+      ],
+    },
+    trustCredentials: [
+      { icon: "school", title: "MBBS, MD, DM", subtitle: "Medical Graduate" },
+      {
+        icon: "verified",
+        title: "Medical Registration Verified",
+        subtitle: "22+ Years Experience",
+      },
+    ],
+    specializations: [
+      { icon: "medical_services", title: "Liver Diseases" },
+      { icon: "healing", title: "Pancreatic Disorders" },
+      { icon: "local_hospital", title: "Acid Reflux (GERD)" },
+      { icon: "bloodtype", title: "GI Bleeding" },
+    ],
+    specialtyInterests: [
+      { icon: "check_circle", title: "IBD & IBS Management" },
+      { icon: "check_circle", title: "Digestive Cancers" },
+    ],
+    avatar: drSagarMantri,
   },
 ];
