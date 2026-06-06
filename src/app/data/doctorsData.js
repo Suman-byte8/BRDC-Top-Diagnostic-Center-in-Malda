@@ -703,7 +703,7 @@ export const detailedDoctors = [
       {
         icon: "verified",
         title: "Medical Registration Verified",
-        subtitle: "22+ Years Experience",
+        subtitle: "5+ Years Experience",
       },
     ],
     specializations: [
