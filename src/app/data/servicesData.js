@@ -9,10 +9,11 @@ export const opdData = {
     "General Physicians", 
     "ENT Surgeons", 
     "Urologists", 
-    "Cardiac Surgeons", 
-    "Cardiologists", 
+    "Rheumatologist",
     "Gastroenterologists", 
-    "Pediatricians"
+    "Pediatricians",
+    "Oncologist",
+    "Orthopedic Surgeon"
   ]
 };
 
